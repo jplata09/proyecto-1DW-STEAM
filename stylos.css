@@ -1,0 +1,104 @@
+*{
+    margin: 0  ;    
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+body{
+    height: 100vh;
+}
+
+header.div-izq h1{
+color: black;    
+}
+
+header .div-izq h1 span{
+    color: #5f9ea0;
+}
+
+header .div-der nav ul{
+
+    display: flex;
+    gap: 40px;
+    
+}
+
+header .div-der nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    transition: .3s;
+}
+
+a:hover{
+    color: #5f9ea0;
+}
+
+main .div-info .text-container span{
+
+color:#5f9ea0;
+
+}
+main{
+    height: 80%;
+    display: 	flex;
+    padding: 0px 110px;
+    justify-content: center;
+    align-items:center; 
+
+}
+
+
+main .div-info .btn-container button {
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:transparent;
+
+}
+main .div-info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .div-info .text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+main .div-info .btn-container #contact{
+    background-color: #5f9ea0;
+    cursor: pointer;
+}
+
+main .div-info .btn-container #contact:hover{
+    opacity: 0.9; 
+}
+
+
+
+
+main.div-image picture img{
+    width:  600px;
+    
+}
+
+
+
